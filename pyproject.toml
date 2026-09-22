@@ -1,0 +1,10 @@
+[project]
+name = "flask-poc"
+version = "0.1.0"
+description = "Simple POC project using flask"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.3",
+    "pydantic>=2.13.5",
+    "service>=0.6.0",
+]

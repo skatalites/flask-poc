@@ -1,0 +1,41 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Bytecode compilado de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+
+# uv
+# (uv.lock SÍ se versiona, no lo ignores - garantiza builds reproducibles)
+
+# Variables de entorno / secretos
+.env
+.env.local
+*.env
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
