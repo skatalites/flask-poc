@@ -9,7 +9,7 @@ def seed():
     from app.auth.service import hash_password
     _users_db[_next_id] = User(
         id=_next_id,
-        username="user",
+        username="user@test.com",
         password_hash=hash_password("password123")
     )
     _next_id += 1
